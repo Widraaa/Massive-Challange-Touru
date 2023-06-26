@@ -1,0 +1,79 @@
+.modalBackground {
+  background-color: none;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  left: 35%;
+}
+
+.modalContainer {
+  position: absolute;
+  width: 368px;
+  height: 450px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  justify-content: center;
+}
+
+.closebtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.closebtn button {
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn :hover {
+  background-color: #ddd;
+}
+
+.img__logo img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px !important;
+  height: 175px !important;
+  margin-bottom: 8% !important;
+}
+
+.modalContainer .text h5 {
+  margin: 0 5px 0 5px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 5% !important;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.modalContainer .tombol {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5% !important;
+}
+
+.modalContainer .tombol button {
+  width: 92px;
+  height: 50px;
+  border-radius: 42px;
+  background-color: var(--secondary-color);
+  color: #fff;
+  border-radius: 42px;
+  border: none;
+}
+
+.tombol .link {
+  color: #fff;
+  text-decoration: none;
+}

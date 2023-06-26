@@ -1,0 +1,68 @@
+.tourtitle{
+    font-weight: 800;
+}
+
+.horizontal{
+
+border: 1pt solid #bfbdbd;
+}
+
+.top{
+    padding-top: 2rem;
+}
+
+.pilih p{
+    font-size: 26px;
+    margin-bottom: -5%;
+    font-weight: 300;
+}
+
+.pilih1 {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.daftar{
+    font-size: 16px;
+    font-weight: 800;
+    text-align: right;
+}
+
+
+.pagination span{
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--secondary-color);
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.active__page{
+    background: var(--secondary-color);
+    color: #fff !important;
+}
+
+@media only screen and (max-width: 992px){
+    .pilih p{
+        font-size: 23px !important;
+    }
+
+    .pilih1{
+        font-size: 23px !important;
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .daftar{
+        font-size: 12px;
+        text-align: left;
+    }
+}

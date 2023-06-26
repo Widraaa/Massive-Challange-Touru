@@ -1,0 +1,10 @@
+.common__section {
+    background-image: url("../assets/images/homestayhead.png") ;
+    background-size: cover;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+

@@ -1,0 +1,52 @@
+.head {
+  /* background-image: url("../assets/images/sampul.png"); */
+  background-size: cover;
+}
+
+.bio{
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.image-crop {
+  display: block;
+  position: relative;
+  margin-top: 10%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.navbar {
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+}
+
+.navbar nav {
+  width: 100%;
+  padding: 0 20%;
+}
+
+.navbar nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar nav ul a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bio h2 {
+  padding-bottom: 10px ;
+}
+
+.bio p {
+  padding: 10px 0 10px 0 ;
+}

@@ -1,0 +1,48 @@
+.footer{
+    padding-top: 50px;
+    background: var(--secondary-color);
+}
+
+.footer .logo img{
+    margin-top: -12%;
+    width: 70%;
+}
+
+.footer p{
+    justify-content: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.social__links span{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    font-size: 30px;
+    border-radius: 50px 50px;
+}
+
+@media only screen and (max-width: 992px) {
+    .footer .logo img{
+        width: 20%;
+        margin-top: 0;
+    }
+    .lo{
+        text-align: center;
+    }
+
+    .footer p{
+        margin-bottom: 2rem;
+    }
+    
+    .footer{
+        padding-top: 1rem;
+    }
+}
+
+
+

@@ -1,0 +1,60 @@
+.destinasi__img img {
+  width: 100%;
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.card {
+  bottom: none !important;
+  box-shadow: none;
+  background: #eeeef0 !important;
+  border: none;
+  border-radius: 10px 10px 10px 10px !important;
+}
+
+.destinasi__img {
+  position: relative;
+}
+
+.destinasi__title {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.destinasi__title a {
+  text-decoration: none;
+  color: var(--heading-color) !important;
+  transition: 0.3s;
+}
+
+.booking__btn2 {
+  background: var(--secondary-color) !important;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem !important;
+}
+
+.booking__btn2 a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+@media only screen and (max-width: 992px){
+
+  .card__bottom2 h5{
+    font-size: 1rem;
+  }
+
+  .destinasi__title{
+    font-size: 1rem;
+  }
+
+  .booking__btn2 a{
+    font-size: 0.8rem;
+  }
+
+  .booking__btn2{
+    padding: 0.2rem 0.5rem !important;
+  }
+
+}
