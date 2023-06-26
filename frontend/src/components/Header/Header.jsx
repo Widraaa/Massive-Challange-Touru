@@ -16,7 +16,7 @@ const nav__links = [
   },
   {
     path: "/destination",
-    display: "Artikel",
+    display: "Destinasi",
   },
   {
     path: "/tours",

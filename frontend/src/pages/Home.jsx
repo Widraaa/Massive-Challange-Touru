@@ -99,7 +99,7 @@ const Home = () => {
         <Container data-aos="zoom-in">
           <Row>
             <Col lg="12" className="mb-5">
-              <Subtitle subtitle={"Artikel Terkait"} />
+              <Subtitle subtitle={"Destinasi"} />
             </Col>
             <ArtikelTerkait />
           </Row>
